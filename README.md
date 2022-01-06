@@ -43,6 +43,11 @@ Esse comando é necessario para carregar todas as dependencias do projeto no con
 
 ⚠️ A senha e o usuario do PhpMyAdmin é a mesma que foi definida no arquivo `.env`
 
+⚠️ Em caso de sugir a mensagem ` Failed to open stream: Permission denied`. Adicione o seguinte codigo na`.env`
+    
+    WWWGROUP=1000
+    WWWUSER=1000
+
 Agora acesse as portas dos conteiners:
 
     http://localhost:8081/  (Php My Admin)
